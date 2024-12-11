@@ -65,11 +65,6 @@ def preprocessing_page():
 
         
 
-import numpy as np
-import pandas as pd
-import streamlit as st
-import plotly.express as px
-from scipy.stats import zscore
 
 def missing_values_page():
     st.title("Valeurs manquantes et outliers")
